@@ -7,11 +7,11 @@ open up bash profile:
 
 \dt    # display all tables
 \du    # display all users
-\l        # list databases on local machine
+\l     # list databases on local machine
 
 Important Path Files:
 sudo vi /usr/local/var/postgres/postgresql.conf
 sudo vi /usr/local/var/postgres/pg_hba.conf
 
-Restarting postgresql using home-brew:
+Restarting postgresql using homebrew:
 brew services restart postgresql
