@@ -1,0 +1,34 @@
+//--- IMPORTANT NOTES FOR USING CLI (Cmd-line interface) with GIT --\\
+
+//---- BEGIN HERE! ---------\\
+// create a BARE repository
+git init lab1.git --bare
+
+// Move all your files into a NOT bare repo, then Push
+git init
+git add *
+git commit -m "your message here"
+git log                            //(IS OPTIONAL)
+git push lab1.git master
+// DONE. Your repository is now ready to be cloned from anywhere
+
+//--- CLONING A REPOSITORY from SLEIPNIR ----\\
+git clone arojas@sleipnir:/~arojas/3350/lab1.git
+
+//    or from your Mac or other Local.
+git clone arojas@sleipnir.cs.csubak.edu:/~arojas/3350/lab1.git
+
+//--- CLONING A .git Repository from Github!   --\\
+//   edit the ending .git name
+git clone git@github.com:Angel-Rojas/bankNotes.git
+
+
+//--- Update / SAVE your CHANGES!  ----\\
+git add filename.cpp
+git commit -m "changes message here"
+git push origin master
+
+
+
+
+
