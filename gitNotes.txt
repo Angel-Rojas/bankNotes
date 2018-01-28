@@ -22,7 +22,6 @@ git clone arojas@sleipnir.cs.csubak.edu:/~arojas/3350/lab1.git
 //   edit the ending .git name
 git clone git@github.com:Angel-Rojas/bankNotes.git
 
-
 //--- Update / SAVE your CHANGES!  ----\\
 git add filename.cpp
 git commit -m "changes message here"
